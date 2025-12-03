@@ -62,7 +62,7 @@ body {
   padding: 0;
 }
 
-.gallery-item {
+.photo-card {
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -71,7 +71,9 @@ body {
 
 .gallery-item img {
   width: 100%;
-  display: block;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .info {

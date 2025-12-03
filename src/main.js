@@ -28,7 +28,7 @@ form.addEventListener("submit", (event) => {
   clearGallery();
   showLoader();
 
-  getImagesByQuery(query)
+getImagesByQuery(query)
     .then((data) => {
       const images = data.hits;
 
